@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import MovieCard from './MovieCard';
 import MovieDetails from './MovieDetails';
 import SearchBar from './SearchBar';
@@ -27,7 +27,11 @@ const App = () => {
   return (
     <Router>
       <div className="app">
-        <h1>Movie Magic</h1>
+      <h1>
+          <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+            Movie Mogic
+          </Link>
+        </h1>
         <SearchBar
           searchTerm={searchTerm}
           setSearchTerm={setSearchTerm}
