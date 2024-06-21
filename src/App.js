@@ -27,7 +27,7 @@ const App = () => {
   return (
     <Router>
       <div className="app">
-        <h1>WAREHOUSE</h1>
+        <h1>Movie Magic</h1>
         <SearchBar
           searchTerm={searchTerm}
           setSearchTerm={setSearchTerm}
