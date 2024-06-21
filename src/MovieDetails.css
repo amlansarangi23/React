@@ -1,0 +1,51 @@
+/* MovieDetails.css */
+
+.movie-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Transparent background */
+    color: white; /* White text */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-details .left {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .movie-details .right {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .movie-details .left img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  .movie-details .right {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .movie-details .right h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .movie-details .right p {
+    margin-bottom: 3rem;
+  }
+  
+  @media (min-width: 768px) {
+    .movie-details {
+      flex-direction: row;
+    }
+  }
+  
