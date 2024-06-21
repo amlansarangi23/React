@@ -29,7 +29,7 @@ const App = () => {
       <div className="app">
       <h1>
           <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-            Movie Mogic
+            Movie Magic
           </Link>
         </h1>
         <SearchBar
